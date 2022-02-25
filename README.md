@@ -37,7 +37,7 @@ Click on the Help Button or <a href="https://telegram.dog/Donlee_Robot">/help</a
 ↪️ 𝐃𝐄𝐏𝐋𝐎𝐘 𝐕𝐈𝐃𝐄𝐎 ↩️
 </p>
 
-<a href="https://youtu.be/NrbMc93aCzA"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/4kcinemas/Hope/Professor-99"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
 <a href="https://youtu.be/NrbMc93aCzA"><img src="https://img.shields.io/youtube/views/NrbMc93aCzA?style=social"></a>
 
 ----
