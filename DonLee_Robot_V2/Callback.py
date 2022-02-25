@@ -30,10 +30,7 @@ async def cb_handler(client, query):
     elif query.data == "home":
         button = [[  
           Import.Button("➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖢𝗁𝖺𝗍𝗌 ➕", url=f"http://t.me/{Config.BOT_USERNAME}?startgroup=true")
-          ],[
-          Import.Button("⚠️ 𝖧𝖾𝗅𝗉", callback_data="help"),
-          Import.Button("𝖠𝖻𝗈𝗎𝗍 🤠", callback_data="about")
-          ]]
+          ]
         await query.message.edit_text(Text.START_TEXT.format(query.from_user.mention, Config.DEV_ID), reply_markup=Import.Markup(button))
 
     elif query.data == "help":
@@ -65,7 +62,7 @@ async def cb_handler(client, query):
 
     elif query.data == "about":
         button = [[
-          Import.Button("👨‍💻𝖣𝖾𝗉𝗅𝗈𝗒", url='https://www.youtube.com/watch?v=NrbMc93aCzA'),
+          Import.Button("🎬 Group", url='https://t.me/netflixmovies_sslinkz'),
           Import.Button("𝖲𝗈𝗎𝗋𝖼𝖾📦", callback_data="source")
           ],[
           Import.Button("⚠️𝖧𝖾𝗅𝗉", callback_data="help"),
@@ -166,7 +163,7 @@ async def cb_handler(client, query):
 
     elif query.data == "source":
         button = [[
-          Import.Button("🖥️ 𝖵𝗂𝖽𝖾𝗈 🖥️", url="https://www.youtube.com/watch?v=NrbMc93aCzA"),
+          Import.Button("📂 Channel", url="https://t.me/ss_linkz"),
           ],[
           Import.Button("🔙 𝖡𝖺𝖼𝗄", callback_data="about"),
           Import.Button("𝖢𝗋𝖾𝖽𝗂𝗍𝗌 💞", callback_data="credits")
